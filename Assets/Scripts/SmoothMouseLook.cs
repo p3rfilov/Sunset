@@ -1,11 +1,18 @@
 ﻿
-// Source: http://wiki.unity3d.com
+// Extended version of SmoothMouseLook found on http://wiki.unity3d.com
+// Work in Progress
 
 using UnityEngine;
 using System.Collections.Generic;
 
 public class SmoothMouseLook : MonoBehaviour
 {
+    public Texture2D cursorTexture;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
+    public float cursorUpTime = 2f;
+
+    public bool freeLook;
 
     public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
@@ -29,7 +36,25 @@ public class SmoothMouseLook : MonoBehaviour
 
     public float frameCounter = 20;
 
+    private float idleTime;
+
     Quaternion originalRotation;
+
+
+    void Start()
+    {
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb)
+            rb.freezeRotation = true;
+        originalRotation = transform.localRotation;
+
+        if (cursorTexture != null)
+        {
+            //Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+            Cursor.visible = false;
+            idleTime = 0;
+        }
+    }
 
     void Update()
     {
@@ -122,14 +147,6 @@ public class SmoothMouseLook : MonoBehaviour
                 transform.localRotation = originalRotation * yQuaternion;
             }
         }
-    }
-
-    void Start()
-    {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (rb)
-            rb.freezeRotation = true;
-        originalRotation = transform.localRotation;
     }
 
     public static float ClampAngle(float angle, float min, float max)

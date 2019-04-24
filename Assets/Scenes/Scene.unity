@@ -5862,12 +5862,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b3edbd6c3024bc4a80fd0668cd57b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: dd4eeff7dfe503b478ed3d2df2456e5b, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
+  cursorUpTime: 2
+  freeLook: 0
   axes: 0
   sensitivityX: 5
   sensitivityY: 5
   minimumX: -360
   maximumX: 360
-  minimumY: -60
+  minimumY: -30
   maximumY: 60
   frameCounter: 20
 --- !u!124 &534669908
@@ -22532,7 +22537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1389634304
 Transform:
   m_ObjectHideFlags: 0
