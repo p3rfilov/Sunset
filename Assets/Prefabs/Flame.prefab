@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 7260922570487653950}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.112, y: 0.5563, z: 0.231}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -115,7 +115,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.25
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 30
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -284,7 +284,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4000
+      scalar: 1000
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -981,8 +981,8 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0
-          value: 0.38650513
+          time: 0.0020523071
+          value: 0.25766754
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -1000,7 +1000,7 @@ ParticleSystem:
           outWeight: 0.28791916
         - serializedVersion: 3
           time: 1
-          value: 0.63190037
+          value: 0.061349694
           inSlope: -0.000015460271
           outSlope: -0.000015460271
           tangentMode: 0
@@ -3718,7 +3718,7 @@ ParticleSystem:
       emitProbability: 1
   LightsModule:
     enabled: 1
-    ratio: 1
+    ratio: 0.01
     light: {fileID: 7263575824982218432, guid: fb210da1932c67641b1946cb61138bdd, type: 3}
     randomDistribution: 1
     color: 1
@@ -3727,7 +3727,7 @@ ParticleSystem:
     rangeCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 8
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -3780,7 +3780,7 @@ ParticleSystem:
     intensityCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 6
+      scalar: 10
       minScalar: 1
       maxCurve:
         serializedVersion: 2

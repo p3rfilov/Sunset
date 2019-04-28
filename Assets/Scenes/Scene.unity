@@ -421,25 +421,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7084626196298955451, guid: 6fc9de38350facb4ba8dc80ceab54e51,
+    - target: {fileID: 2503375674556406870, guid: 6fc9de38350facb4ba8dc80ceab54e51,
         type: 3}
-      propertyPath: m_VertexStreams.Array.size
-      value: 3
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7084626196298955451, guid: 6fc9de38350facb4ba8dc80ceab54e51,
+    - target: {fileID: 6476291281407151343, guid: 6fc9de38350facb4ba8dc80ceab54e51,
         type: 3}
-      propertyPath: m_UseCustomVertexStreams
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7084626196298955451, guid: 6fc9de38350facb4ba8dc80ceab54e51,
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a9d6a288fa392c44288ba5a11a9e32ce, type: 2}
+    - target: {fileID: 6476291281407151343, guid: 6fc9de38350facb4ba8dc80ceab54e51,
         type: 3}
-      propertyPath: m_VertexStreams.Array.data[1]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7084626196298955451, guid: 6fc9de38350facb4ba8dc80ceab54e51,
-        type: 3}
-      propertyPath: m_VertexStreams.Array.data[2]
-      value: 4
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc9de38350facb4ba8dc80ceab54e51, type: 3}
@@ -5663,8 +5658,8 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
   - component: {fileID: 534669906}
-  - component: {fileID: 534669907}
   - component: {fileID: 534669908}
+  - component: {fileID: 534669909}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5749,31 +5744,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 3c10bdf7d4ec59440a98e35c144b1881, type: 2}
---- !u!114 &534669907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534669902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b3edbd6c3024bc4a80fd0668cd57b7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: dd4eeff7dfe503b478ed3d2df2456e5b, type: 3}
-  cursorMode: 0
-  hotSpot: {x: 0, y: 0}
-  cursorUpTime: 2
-  freeLook: 0
-  axes: 0
-  sensitivityX: 5
-  sensitivityY: 5
-  minimumX: -360
-  maximumX: 360
-  minimumY: -30
-  maximumY: 70
-  frameCounter: 20
 --- !u!124 &534669908
 Behaviour:
   m_ObjectHideFlags: 0
@@ -5782,6 +5752,28 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
+--- !u!114 &534669909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20704cd6566f8b846a69cc8eaf094f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumX: -180
+  maximumX: 180
+  minimumY: -30
+  maximumY: 70
+  lockCursor: 1
+  sensitivity: {x: 2, y: 2}
+  smoothing: {x: 3, y: 3}
+  targetDirection: {x: 0, y: 0}
+  targetCharacterDirection: {x: 0, y: 0}
+  characterBody: {fileID: 0}
 --- !u!1 &597001044
 GameObject:
   m_ObjectHideFlags: 0
