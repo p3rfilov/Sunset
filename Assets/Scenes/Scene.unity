@@ -436,6 +436,11 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3266460978953303872, guid: 6fc9de38350facb4ba8dc80ceab54e51,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc9de38350facb4ba8dc80ceab54e51, type: 3}
 --- !u!1 &183743664
