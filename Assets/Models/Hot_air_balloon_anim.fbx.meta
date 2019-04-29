@@ -11,74 +11,76 @@ ModelImporter:
     100010: 11809_Hot_air_balloon_Top
     100012: Bone00
     100014: Bone01
-    100016: Bone03
-    100018: Bone04
-    100020: Bone05
-    100022: Bone07
-    100024: Bone08
-    100026: Bone10
-    100028: Bone11
-    100030: Bone13
-    100032: Bone14
-    100034: Bone15
-    100036: Burners
-    100038: Circle001
-    100040: Group001
-    100042: Group002
-    100044: Group003
-    100046: Group004
-    100048: //RootNode
-    100050: IK00
-    100052: IK01
-    100054: IK02
-    100056: IK03
-    100058: Object001
-    100060: P_Helper_BL01
-    100062: P_Helper_BL02
-    100064: P_Helper_BL03
-    100066: P_Helper_BL04
-    100068: P_Helper_BL05
-    100070: P_Helper_BR01
-    100072: P_Helper_BR02
-    100074: P_Helper_BR03
-    100076: P_Helper_BR04
-    100078: P_Helper_BR05
-    100080: P_Helper_FL01
-    100082: P_Helper_FL02
-    100084: P_Helper_FL03
-    100086: P_Helper_FL04
-    100088: P_Helper_FL05
-    100090: P_Helper_FR01
-    100092: P_Helper_FR02
-    100094: P_Helper_FR03
-    100096: P_Helper_FR04
-    100098: P_Helper_FR05
-    100100: Point001
-    100102: Point002
-    100104: Point003
-    100106: Point004
-    100108: Point005
-    100110: Point006
-    100112: Point007
-    100114: Point008
-    100116: Point009
-    100118: Point010
-    100120: Point011
-    100122: Point012
-    100124: Point013
-    100126: Point014
-    100128: Point015
-    100130: Point016
-    100132: Point017
-    100134: Point018
-    100136: Point019
-    100138: Point020
-    100140: Point021
-    100142: Point022
-    100144: Point023
-    100146: Point024
-    100148: Rectangle001
-    100150: Wicker
+    100016: Bone016
+    100018: Bone017
+    100020: Bone03
+    100022: Bone04
+    100024: Bone05
+    100026: Bone07
+    100028: Bone08
+    100030: Bone10
+    100032: Bone11
+    100034: Bone13
+    100036: Bone14
+    100038: Bone15
+    100040: Burners
+    100042: Circle001
+    100044: Group001
+    100046: Group002
+    100048: Group003
+    100050: Group004
+    100052: //RootNode
+    100054: IK00
+    100056: IK01
+    100058: IK02
+    100060: IK03
+    100062: Object001
+    100064: P_Helper_BL01
+    100066: P_Helper_BL02
+    100068: P_Helper_BL03
+    100070: P_Helper_BL04
+    100072: P_Helper_BL05
+    100074: P_Helper_BR01
+    100076: P_Helper_BR02
+    100078: P_Helper_BR03
+    100080: P_Helper_BR04
+    100082: P_Helper_BR05
+    100084: P_Helper_FL01
+    100086: P_Helper_FL02
+    100088: P_Helper_FL03
+    100090: P_Helper_FL04
+    100092: P_Helper_FL05
+    100094: P_Helper_FR01
+    100096: P_Helper_FR02
+    100098: P_Helper_FR03
+    100100: P_Helper_FR04
+    100102: P_Helper_FR05
+    100104: Point001
+    100106: Point002
+    100108: Point003
+    100110: Point004
+    100112: Point005
+    100114: Point006
+    100116: Point007
+    100118: Point008
+    100120: Point009
+    100122: Point010
+    100124: Point011
+    100126: Point012
+    100128: Point013
+    100130: Point014
+    100132: Point015
+    100134: Point016
+    100136: Point017
+    100138: Point018
+    100140: Point019
+    100142: Point020
+    100144: Point021
+    100146: Point022
+    100148: Point023
+    100150: Point024
+    100152: Rectangle001
+    100154: Wicker
     400000: 11809_Hot_air_balloon_Balloon
     400002: 11809_Hot_air_balloon_Basket
     400004: 11809_Hot_air_balloon_Burner
@@ -87,74 +89,76 @@ ModelImporter:
     400010: 11809_Hot_air_balloon_Top
     400012: Bone00
     400014: Bone01
-    400016: Bone03
-    400018: Bone04
-    400020: Bone05
-    400022: Bone07
-    400024: Bone08
-    400026: Bone10
-    400028: Bone11
-    400030: Bone13
-    400032: Bone14
-    400034: Bone15
-    400036: Burners
-    400038: Circle001
-    400040: Group001
-    400042: Group002
-    400044: Group003
-    400046: Group004
-    400048: //RootNode
-    400050: IK00
-    400052: IK01
-    400054: IK02
-    400056: IK03
-    400058: Object001
-    400060: P_Helper_BL01
-    400062: P_Helper_BL02
-    400064: P_Helper_BL03
-    400066: P_Helper_BL04
-    400068: P_Helper_BL05
-    400070: P_Helper_BR01
-    400072: P_Helper_BR02
-    400074: P_Helper_BR03
-    400076: P_Helper_BR04
-    400078: P_Helper_BR05
-    400080: P_Helper_FL01
-    400082: P_Helper_FL02
-    400084: P_Helper_FL03
-    400086: P_Helper_FL04
-    400088: P_Helper_FL05
-    400090: P_Helper_FR01
-    400092: P_Helper_FR02
-    400094: P_Helper_FR03
-    400096: P_Helper_FR04
-    400098: P_Helper_FR05
-    400100: Point001
-    400102: Point002
-    400104: Point003
-    400106: Point004
-    400108: Point005
-    400110: Point006
-    400112: Point007
-    400114: Point008
-    400116: Point009
-    400118: Point010
-    400120: Point011
-    400122: Point012
-    400124: Point013
-    400126: Point014
-    400128: Point015
-    400130: Point016
-    400132: Point017
-    400134: Point018
-    400136: Point019
-    400138: Point020
-    400140: Point021
-    400142: Point022
-    400144: Point023
-    400146: Point024
-    400148: Rectangle001
-    400150: Wicker
+    400016: Bone016
+    400018: Bone017
+    400020: Bone03
+    400022: Bone04
+    400024: Bone05
+    400026: Bone07
+    400028: Bone08
+    400030: Bone10
+    400032: Bone11
+    400034: Bone13
+    400036: Bone14
+    400038: Bone15
+    400040: Burners
+    400042: Circle001
+    400044: Group001
+    400046: Group002
+    400048: Group003
+    400050: Group004
+    400052: //RootNode
+    400054: IK00
+    400056: IK01
+    400058: IK02
+    400060: IK03
+    400062: Object001
+    400064: P_Helper_BL01
+    400066: P_Helper_BL02
+    400068: P_Helper_BL03
+    400070: P_Helper_BL04
+    400072: P_Helper_BL05
+    400074: P_Helper_BR01
+    400076: P_Helper_BR02
+    400078: P_Helper_BR03
+    400080: P_Helper_BR04
+    400082: P_Helper_BR05
+    400084: P_Helper_FL01
+    400086: P_Helper_FL02
+    400088: P_Helper_FL03
+    400090: P_Helper_FL04
+    400092: P_Helper_FL05
+    400094: P_Helper_FR01
+    400096: P_Helper_FR02
+    400098: P_Helper_FR03
+    400100: P_Helper_FR04
+    400102: P_Helper_FR05
+    400104: Point001
+    400106: Point002
+    400108: Point003
+    400110: Point004
+    400112: Point005
+    400114: Point006
+    400116: Point007
+    400118: Point008
+    400120: Point009
+    400122: Point010
+    400124: Point011
+    400126: Point012
+    400128: Point013
+    400130: Point014
+    400132: Point015
+    400134: Point016
+    400136: Point017
+    400138: Point018
+    400140: Point019
+    400142: Point020
+    400144: Point021
+    400146: Point022
+    400148: Point023
+    400150: Point024
+    400152: Rectangle001
+    400154: Wicker
     2100000: 11809_Hot_air_balloon_Balloon
     2100002: 11809_Hot_air_balloon_Support
     2100004: 11809_Hot_air_balloon_Floor
@@ -162,7 +166,6 @@ ModelImporter:
     2100008: Wicker_basket
     2100010: 11809_Hot_air_balloon_Burner
     2100012: 11809_Hot_air_balloon_top
-    2100014: No Name
     2300000: 11809_Hot_air_balloon_Basket
     2300002: 11809_Hot_air_balloon_Burner
     2300004: 11809_Hot_air_balloon_Floor
@@ -170,10 +173,6 @@ ModelImporter:
     2300008: 11809_Hot_air_balloon_Top
     2300010: Burners
     2300012: Wicker
-    2300014: Circle001
-    2300016: Rectangle001
-    2300018: 11809_Hot_air_balloon_Balloon
-    2300020: Object001
     3300000: 11809_Hot_air_balloon_Basket
     3300002: 11809_Hot_air_balloon_Burner
     3300004: 11809_Hot_air_balloon_Floor
@@ -181,10 +180,6 @@ ModelImporter:
     3300008: 11809_Hot_air_balloon_Top
     3300010: Burners
     3300012: Wicker
-    3300014: Circle001
-    3300016: Rectangle001
-    3300018: 11809_Hot_air_balloon_Balloon
-    3300020: Object001
     4300000: 11809_Hot_air_balloon_Balloon
     4300002: 11809_Hot_air_balloon_Support_Base
     4300004: 11809_Hot_air_balloon_Floor
@@ -194,10 +189,9 @@ ModelImporter:
     4300012: Burners
     4300014: 11809_Hot_air_balloon_Top
     4300016: Object001
-    4300018: Rectangle001
-    4300020: Circle001
     7400000: Idle
     9500000: //RootNode
+    11100000: //RootNode
     13700000: 11809_Hot_air_balloon_Balloon
     13700002: Object001
     2186277476908879412: ImportLogs
@@ -221,7 +215,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -234,11 +228,11 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 0
       lastFrame: 300
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
@@ -306,7 +300,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
